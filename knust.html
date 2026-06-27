@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            KNUST Website
+        </title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: Arial, sans-serif;
+            }
+            .wrapper {
+                background-color: #333;
+                width: 100%;
+                padding: 0;
+                height: 100%;
+                
+                
+            }
+            .top-section, a {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                padding: 0 10px;
+                color: white;
+                text-decoration: none;
+                text-align: start;
+            }
+            
+            .body {
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #0d1a32;
+                display: flex;
+                color: white;
+            }
+            .header {
+                display: flex;
+                justify-content: space-between;
+                background-color: white;
+                color: #333;
+                height: 80px;
+                padding: 10px 20px;
+                align-items: center;
+            }
+            .logo-container img {
+                width: 100%;
+                height: auto;
+                
+            }
+            .nav-links {
+                display: flex;
+                gap: 2px;
+            }
+            .nav-links a {
+                color: #333;
+                text-decoration: none;
+                font-size: 11px;
+                font-weight: bold;
+            }
+            .nav-links a:hover {
+                text-decoration: underline;
+
+            }
+
+            .news-file {
+                width: 20px;
+            }
+            .news-image {
+                width: 10px;
+            }
+            .news-section {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                padding: 20px;
+                gap: 20px;
+
+            }
+            
+            .news-item {
+                background-color: white;
+                color: #333;
+                border-radius: 50px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+                width: 40%;
+                padding: 13px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            .news-item img {
+                width: 100%;
+                height: auto;
+                border-radius: 4px;
+            }
+            .news-item .h2 {
+                font-size: 20px;
+                margin: 10px 0;
+
+            }
+            .news-item p {
+                font-size: 13px;
+                color: #333;
+            }
+            .news-item a {
+                text-decoration: none;
+                color: #333;
+                font-weight: bold;
+                margin-top: 10px;
+                opacity: 1.0;
+            }
+            .news-item a:hover {
+                text-decoration: none;
+            }
+            .item-1 {
+                background-color: #333;
+                color: #333;
+                opacity: 0.2;
+                line-height: 1.6;
+                width: 100%;
+                text-wrap: wrap;
+            }
+
+
+            
+            .container {
+                width: 90%;
+                max-width: 1200px;
+                margin: 0 auto;
+            }
+            /* Media Section */
+            .media-section   {
+                padding: 50px 0;
+                background-color: white;
+                text-align: left;
+                color: lightcoral;
+            }
+
+            .media-section h2 {
+                font-size: 2rem;
+                margin-bottom: 10px;
+                color: lightcoral;
+            }
+             * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .container {
+                display: flex;
+                justify-content: space-between;
+                padding: 20px; }
+
+           
+            
+            .section {
+                width: 23%;
+                background-color: #1a2d4d;
+                padding: 20px;
+                border-radius: 5px; 
+            }
+            
+        
+.subscribe-container {
+  background-color: #1a2d4d;
+  color: white;
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.subscribe-title {
+  color: #87ceeb;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  height: 100%;
+}
+
+.email-input {
+  padding: 10px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.subscribe-button {
+  background-color: #87ceeb;
+  color: #000;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.subscribe-button:hover {
+  background-color: #70b8d4;
+}
+
+.social-links {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+            .subscribe,  
+            .online-services,
+            .university-info,
+            .support {
+                padding: 20px;
+                background-color: #1a2d4d;
+                color: white;
+                
+            }
+
+            h2  {
+                font-size: 1.2em;
+                margin-bottom: 10px;
+                color: lightcoral;
+            }
+
+            .subscribe-input {
+                width: 100%;
+                padding: 8px;
+                margin-top: 5px;
+                margin-bottom: 10px;
+                border: none;
+                border-radius: 3px;
+            
+            }
+
+            .subscribe button {
+                width: 100%;
+                padding: 10px;
+                background-color: #87ceeb;
+                border: none;
+                color: white;
+                cursor: pointer;
+                border-radius: 3px;
+            }
+
+            .social-icons {
+                margin-top: 10px;
+            }
+
+            .social-icons a {
+                color: white;
+                margin-right: 10px;
+                font-size: 1.2em;
+                text-decoration: none;
+            }
+
+            .online-services ul,
+            .university-info ul {
+                list-style: none;
+            }
+
+
+            .online-services li,
+            .university-info li  {
+                margin-bottom: 8px;
+            }
+
+            .online-services a,
+            .university-info a {
+                color: #87ceeb;
+                text-decoration: none;
+            }
+        
+
+
+                .support .donation-banner {
+                    text-align: center;
+                    padding: 20px;
+                    background-color: #25405f;
+                }
+
+                .support .donation-banner p {
+                    margin-bottom: 10px;
+                }
+
+                .support button {
+                    padding: 10px 20px;
+                    background-color: #ff5e57;
+                    border: none;
+                    color: white;
+                    cursor: pointer;
+                }
+
+                footer {
+                    text-align: center;
+                    padding: 20px;
+                    background-color: #0d1a32;
+                    color: #87ceeb;
+                }
+ 
+                /* Main Container */
+    .container {
+      position: relative;
+      width: 100%;
+      height: 100vh; /* Full height */
+      background-color: #f8f8f8;
+      
+    }
+
+    /* Background Image Styling */
+    .image-container {
+     position: absolute;
+    top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('https://www.knust.edu.gh/sites/default/files/2024-04/KNUST%20Admission%202023.24_0.jpg' ); /* Replace with image */
+      background-size: cover;
+      background-position: center;
+      z-index: 1;
+      opacity: 1.0; 
+    }
+
+    /* Text Content Section */
+    .content-box {
+      position: absolute;
+      top: 20%;
+      left: 10%;
+      width: 40%; /* Width of the text box */
+      background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+      padding: 20px;
+      border-radius: 7px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      z-index: 2; /* Above the image */
+    }
+
+    .content-box h2 {
+      font-size: 2em;
+      color: #800000; /* Dark red */
+      margin-bottom: 15px;
+    }
+
+    .content-box p {
+      font-size: 1.2em;
+      line-height: 1.0;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .content-box .apply-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      font-size: 2em;
+      background-color:  #800000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    .content-box .apply-btn:hover {
+      background-color:  #800000;
+    }
+ </style>
+    </head>
+    <body>
+        <div class="wrapper">
+        <div class="top-section">
+           <a href="https://apps.knust.edu.gh/admissions/check">CHECK ADMISSIONS STATUS</a> 
+           <a href="https://www.knust.edu.gh/academic-fees">FEES SCHEDULE</a>
+           <a href="https://apps.knust.edu.gh/students/Account/Login?ReturnUrl=%2Fstudents%2F">STUDENTS PORTAL</a>
+           <a href="https://apps.knust.edu.gh/admissions">APPLY NOW</a>
+           <a href="https://library.knust.edu.gh/">LIBRARY</a>
+           <a href="http://helpdesk.knust.edu.gh/">HELPDESK</a>
+           <a href="http://feedback.knust.edu.gh/">FEEDBACK</a>
+           <a href="https://elearning.knust.edu.gh/">E-LEARNING CENTRE</a>
+        </div>
+       </div> 
+       <header class="header">
+        <div class="logo-container">
+           <a href="https://www.knust.edu.gh/themes/custom/adepts/images/knustlogo.png">
+            <img src="https://www.knust.edu.gh/themes/custom/adepts/images/knustlogo.png">
+           </a> 
+        </div>
+        <nav class="nav-links">
+            <a href="https://www.knust.edu.gh/">HOME</a>
+            <a href="https://www.knust.edu.gh/about">ABOUT US</a>
+            <a href="https://www.knust.edu.gh/academics">ACADEMICS</a>
+            <a href="https://www.knust.edu.gh/admissions">ADMISSIONS</a>
+            <a href="https://www.knust.edu.gh/research">RESEARCH</a>
+            <a href="https://www.knust.edu.gh/#newsSec">MEDIA & PRESS</a>
+            <a href="https://www.knust.edu.gh/students">STUDENTS</a>
+            <a href="https://www.knust.edu.gh/staff">STAFF</a>
+            <a href="http://alumni.knust.edu.gh/">ALUMNI</a>
+        </nav>
+       </header>
+     </div>
+       <div class="container">
+        <!--Background Image-->
+        <div class="image-container"></div>
+
+        <!--Text content-->
+        <div class="content-box">
+            <h1>2024/2025 Admissions</h1>
+      <p>
+        It is announced for the information of prospective applicants and the general public 
+        that application e-vouchers to Postgraduate/Undergraduate/Top-Up programmes of study 
+        at the University for the 2024/2025 Academic Year are now on sale.
+      </p> 
+      <a href="#" class="apply-btn">Apply Now!</a>
+       </div>
+    </div>
+
+       <p>
+        <h1>NEWS & EVENTS</h1>
+       </p>
+       <section class="news-section">
+        <div class="news-item">
+            <p>TOP STORY</p><br>
+            <img src="https://www.knust.edu.gh/sites/default/files/2024-10/Stanbic%20Bank%20Donates%2050%20Laptops%20to%20KNUST.jpg">
+            <h2>News Title 1</h2>
+            <p>
+                <h3>Upcoming News</h3>
+            </p>
+            <p>
+                Delegation from Mastercard Foundation pays Courtesy Call on the Vice-Chancellor
+            </p>
+            </div>
+            <div class="news-item">
+                <h2>News</h2>
+              <a href="https://www.knust.edu.gh/sites/default/files/2024-11/Delegation%20from%20Mastercard%20Foundation.jpg">
+                <img src="https://www.knust.edu.gh/sites/default/files/2024-11/Delegation%20from%20Mastercard%20Foundation.jpg">
+              </a>
+                <h2>News Title 2</h2>
+                <p>
+                   Delegation from Mastercard Foundation Pays Courtesy Call on the Vice-Chancellor 
+                </p>
+                <p>
+                    A delegation from Mastercard Foundation, led by the Lead for the Scholars Program Partner
+                </p>
+                
+            </div>
+            <div class="news-item">
+                <h2>ANNOUNCEMENTS</h2>
+                <p>
+                  <a href="https://www.knust.edu.gh/announcements/general/58th-congregation">58th Congregation</a>  
+                </p>
+                <p> <a href="https://www.knust.edu.gh/announcements/jobs/call-applications-appointment-dean-faculty-law-0">Call for Applications for Appointment of Dean-Faculty of law</a></p>
+                <p>
+                    <a href="https://www.knust.edu.gh/announcements/jobs/call-applications-appointment-dean-faculty-educational-studies">Call for Application for Appointment of dean- Faculty of Educational Studies</a>
+                </p>
+                <p>
+                 <a href="https://www.knust.edu.gh/announcements/general/ghana-crop-disease-detection-challenge">Ghana Crop Disease Detection Challenge</a>
+                </p>
+               
+            </div>
+            <div class="news-item">
+                <p>
+                    <h2>
+                        <a href="https://www.knust.edu.gh/sites/default/files/2024-11/Pharmacy%20Class%20of%202000%20Commissions%20a%20Renovated%20Conference%20Room.jpg">
+                            <img src="https://www.knust.edu.gh/sites/default/files/2024-11/Pharmacy%20Class%20of%202000%20Commissions%20a%20Renovated%20Conference%20Room.jpg">
+                        </a>
+                    </h2>
+                </p>
+               <p>
+                    <a href="https://www.knust.edu.gh/news/news-items/pharmacy-class-2000-commissions-renovated-conference-room">Pharmacy Class of 2000 Commissions a Renovated Conference Room</a>
+                </p>
+                <p>
+                  The Pharmacy Class of 2000 of the College of Health Sciences, Kwame Nkrumah University of Science & Technology
+                </p>
+            </div>
+            <div class="news-item">
+                <a href="https://www.knust.edu.gh/news/news-items/vice-chancellor-commissions-grasag-projects"> <img src="https://www.knust.edu.gh/sites/default/files/2024-10/Vice-Chancellor%20Commissions%20GRASAG%20Projects.jpg"></a>
+                <p>
+                    <a href="https://www.knust.edu.gh/news/news-items/vice-chancellor-commissions-grasag-projects">Vice-Chancellor Commission GRASAG Projects</a>
+                </p>
+                <p>
+                    <a href="https://www.knust.edu.gh/news/news-items/vice-chancellor-commissions-grasag-projects">The Vice-Chancellor of the Kwame Nkrumah University of SCience and Technology (KNUST), Published: 23 Sep 2024. General News</a>
+                </p>
+                    </div>
+            </section>
+
+                    <h2>MEDIA</h2>
+                  </div>
+                <h2>KNUST ON YOUTUBE</h2>
+
+                <!--Media Grid-->
+                <div class="media-grid">
+                </div>
+
+                <!--Media Grid-->
+                <div class="media-grid"></div>
+
+                <!--Media Item 1-->
+                <div class="media-item">
+                   <img src="data:image/jpeg;base64,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">
+                   <div class="media-info">
+                    <h3>Professorial Inaugural Lecture by Professor Alexander Yaw Debrah</h3><br>
+                   </div>
+                </div>
+                <h2>KNUST ON TWITTER</h2><br>
+                <!--Media Item 3-->
+                <div class="media-item video">
+                    <iframe src="https://pbs.twimg.com/media/EzBNGwtXIA8w713?format=jpg&name=900x900"></iframe>
+                    <div class="media-info"><br>
+                        <h3>
+                          FOCUS FM KNUST (94.3MHz)  and 7 others
+                        </h3>
+                          </div>
+                 </div>
+                 <!--Media Item 4-->
+                 <div class="media-item">
+                    <img src="https://pbs.twimg.com/media/EXUGyGQWoAATiQN?format=jpg&name=medium">
+                    <div class="media-info">
+                        <h3>FOCUS FM KNUST (94.3MHz) and 5 others</h3>
+                    </div>
+                 </div><br>
+                 <h2>AROUND THE WORLD </h2>
+                 <!--Media Item 5-->
+                 <div class="media-item">
+                    <img src="https://www.knust.edu.gh/sites/default/files/2023-06/KNUST%20Tops%20Times%20Higher%20Education%202023%20Impact%20Ranking%C2%A0for%20Quality%20Education%20%28SDG%204%29.jpg">
+                 </div>
+                </div>
+                  </section>
+
+                  <div class="subscribe-container">
+                    <h2 class="subscribe-title">Subscribe</h2>
+                    <form class="subscribe-form">
+                      <input type="email" placeholder="Your email" class="email-input" required>
+                      <button type="submit" class="subscribe-button">Subscribe to our Newsletter</button>
+                    </form>
+                    <div class="social-links">
+                      <span>TWITTER | FACEBOOK | INSTAGRAM | YOUTUBE |</span>
+                    </div>
+                  </div>
+
+
+
+
+
+                  
+                 
+                  <div class="online-services">
+                    <h2>Online Services</h2>
+                    <ul>
+                        <li><a href="#">Admissions Portal</a></li>
+                <li><a href="#">Check Admission Status</a></li>
+                <li><a href="#">Open Educational Resources</a></li>
+                <li><a href="#">Staff Web Directory</a></li>
+                <li><a href="#">KNUST IT HelpDesk</a></li>
+                <li><a href="#">Staff Mail</a></li>
+                <li><a href="#">Student Mail</a></li>
+                <li><a href="#">Pay Fees Online</a></li>
+                <li><a href="#">Accra Guesthouse</a></li>  
+                    </ul>
+                  </div>
+                  <div class="university-info">
+                    <h2>The University</h2>
+                    <ul>
+                        <li><a href="#">Virtual Tour</a></li>
+                        <li><a href="#">Academic Calendar</a></li>
+                        <li><a href="#">Office of Grants & Research</a></li>
+                        <li><a href="#">Quality Assurance & Planning</a></li>
+                        <li><a href="#">Human Resource Development</a></li>
+                        <li><a href="#">Institute of Distance Learning</a></li>
+                        <li><a href="#">International Programmes Office</a></li>
+                        <li><a href="#">The University Hospital</a></li>
+                        <li><a href="#">University Relations Office</a></li>
+                        <li><a href="#">University Information Technology Services</a></li>
+                        <li><a href="#">Alumni Association</a></li>
+                        <li><a href="#">Mastercard Foundation Scholars Program</a></li>
+                        <li><a href="#">Kumasi Centre for Collaborative Research</a></li>
+                        <li><a href="#">Industrial Liaison Committee</a></li>
+                        <li><a href="#">Career Services Centre</a></li> 
+                    </ul>
+                  </div>
+                  <div class="support">
+                    <h2>Support KNUST</h2>
+                    <div class="donation-banner">
+                        <p>
+                            <img src="https://www.knust.edu.gh/sites/default/files/inline-images/doglogo.png">
+                        </p>
+                        <p>Donate now and be a part of KNUST's next giant leap towards providing an ultra-modern 2,000 bed capacity Hall of Residence for students.</p>
+                        <button>Make a Donation</button>
+                    </div>
+                  </div>
+
+                  <footer>
+                    <p>&copy; 2023 Kwame Nkrumah University of Science & Technology, Kumasi, Ghana | T: +233 5000 99299 | E: uro@knust.edu.gh | Ghana Post GPS Address: AK-385-1973</p>
+                  </footer>
+
+
+                </body>
+                </html>
+
+   
+  
+
+      
+  
+    
+
+
+
+
+
+
